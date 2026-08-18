@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#0C2A4D"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="#0284C7" stroke-width="2" stroke-opacity="0.4"/>
+  <!-- Hospital Cross -->
+  <path d="M26 14H38V26H50V38H38V50H26V38H14V26H26V14Z" fill="#0284C7" fill-opacity="0.25"/>
+  <!-- Heartbeat Pulse Line -->
+  <path d="M12 32H22L26 20L32 44L38 26L42 32H52" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Hospital Cross Highlights -->
+  <circle cx="32" cy="14" r="3" fill="#38BDF8"/>
+  <circle cx="32" cy="50" r="3" fill="#38BDF8"/>
+  <circle cx="14" cy="32" r="3" fill="#38BDF8"/>
+  <circle cx="50" cy="32" r="3" fill="#38BDF8"/>
+</svg>
