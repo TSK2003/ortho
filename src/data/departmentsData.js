@@ -298,7 +298,7 @@ export const departmentsList = [
     shortDesc: "Ankle arthroscopy, bunion correction (hallux valgus), flatfoot realignment, Achilles tendon repair & diabetic foot reconstruction.",
     doctorName: "Dr. Meenakshi Sundaram, MS (Ortho), Fellow Foot & Ankle Surgery",
     doctorRole: "Senior Foot & Ankle Orthopedic Surgeon",
-    doctorImg: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80",
+    doctorImg: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80",
     description: "Our Foot & Ankle unit addresses complex structural deformities, chronic ankle instability, bunions, Achilles ruptures, flatfoot deformities, and severe arthritic conditions using modern minimally invasive osteotomies, joint fusion, and arthroscopy.",
     treatments: [
       "Minimally Invasive Bunion (Hallux Valgus) Osteotomy",

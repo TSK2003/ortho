@@ -42,7 +42,7 @@ const AboutUsPage = ({ onOpenAppointment }) => {
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-xl border-2 border-slate-100 bg-slate-950">
                 <img
-                  src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=85"
+                  src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1200&q=85"
                   alt="OrthoCare Robotic Joint Replacement Operating Theatre"
                   className="w-full h-[420px] object-cover"
                 />

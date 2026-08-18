@@ -22,7 +22,7 @@ const AdminBlog = () => {
       content: '', 
       author: 'Dr. Rajeshwar V. Natarajan, MS (Ortho)', 
       date: new Date().toISOString().split('T')[0], 
-      image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80', 
+      image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80', 
       category: 'Robotic Surgery',
       readTime: '6 min read'
     }); 

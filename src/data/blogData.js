@@ -9,7 +9,7 @@ export const blogPosts = [
     authorImg: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80",
     date: "August 15, 2026",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1000&q=80",
     summary: "Discover what to expect from Day 1 to Month 3 after undergoing Mako robotic knee replacement, including pain control, milestone walking goals, and returning to driving.",
     content: `
       <h2>Introduction: Why Robotic Knee Surgery Accelerates Healing</h2>
@@ -38,7 +38,7 @@ export const blogPosts = [
     authorImg: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80",
     date: "August 10, 2026",
     readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=1000&q=80",
     summary: "Understand the anatomical differences between lumbar disc herniation and sciatic nerve compression, conservative remedies, and red-flag symptoms requiring keyhole discectomy.",
     content: `
       <h2>Understanding the Lumbar Disc & The Sciatic Nerve</h2>
@@ -68,7 +68,7 @@ export const blogPosts = [
     authorImg: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80",
     date: "August 04, 2026",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1000&q=80",
     summary: "Key neuromuscular jump-landing mechanics, hamstring-to-quadriceps strength ratios, and warm-up routines that cut ACL injury risk by over 60%.",
     content: `
       <h2>The Anatomy of Non-Contact ACL Tears</h2>
@@ -94,7 +94,7 @@ export const blogPosts = [
     authorImg: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80",
     date: "July 28, 2026",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1576091160291-248b1df53937?auto=format&fit=crop&w=1000&q=80",
     summary: "Why osteoporosis develops silently without symptoms, who should get tested, and how early DEXA bone density screening prevents life-altering hip fractures.",
     content: `
       <h2>What Makes Osteoporosis So Dangerous?</h2>

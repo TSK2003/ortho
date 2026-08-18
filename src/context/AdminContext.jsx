@@ -11,7 +11,7 @@ import { initialStaffList } from '../data/staffData';
 
 const AdminContext = createContext(null);
 
-const STORAGE_KEY = 'orthocare_admin_data_v1';
+const STORAGE_KEY = 'orthocare_admin_data_v2';
 
 const defaultHospitalInfo = {
   name: 'OrthoCare',
@@ -29,7 +29,7 @@ const defaultHeroContent = {
   badge: 'Robotic Joint & Spine Center of Excellence',
   heading: 'Pioneering Sub-Millimeter Robotic Joint Surgery & Advanced Spine Care',
   description: 'Mako 4th Gen robotic-arm total knee and anterior hip replacements, 3D navigated endoscopic spine surgery, 4K keyhole sports arthroscopy, and 24/7 Level-1 fracture trauma care.',
-  heroImage: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=85',
+  heroImage: 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1600&q=85',
   stats: [
     { number: '12,000+', label: 'Robotic Surgeries Done' },
     { number: '25+', label: 'Chief Orthopedic Surgeons' },

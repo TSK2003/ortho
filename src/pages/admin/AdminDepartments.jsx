@@ -19,7 +19,7 @@ const AdminDepartments = () => {
       slug: '', 
       shortDesc: '', 
       about: '', 
-      heroImage: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80' 
+      heroImage: 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1200&q=80' 
     }); 
     setShowForm(true); 
   };

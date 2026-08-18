@@ -6,7 +6,7 @@ export const technologiesList = [
     category: "Robotic Surgical Suite",
     icon: "Cpu",
     badge: "Gold Standard in Joint Replacement",
-    heroImage: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=85",
+    heroImage: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1200&q=85",
     shortDesc: "Sub-millimeter 3D CT-guided robotic joint replacement system for total knee, partial knee, and hip arthroplasty.",
     description: "The Mako Robotic-Arm surgical system transforms joint replacement by combining patient-specific 3D CT bone mapping with real-time stereotactic haptic feedback. It ensures implant positioning accurate to within 0.5 millimeters and 0.5 degrees, minimizing healthy bone loss and soft tissue trauma.",
     keyBenefits: [
@@ -34,7 +34,7 @@ export const technologiesList = [
     category: "Intraoperative Spine Imaging",
     icon: "Zap",
     badge: "Sub-Millimeter Spinal Accuracy",
-    heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=85",
+    heroImage: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=1200&q=85",
     shortDesc: "Real-time 3D volumetric intraoperative CT imaging coupled with optical navigation for high-precision spinal screw placement.",
     description: "The O-Arm surgical imaging system delivers multi-dimensional 3D CT images of the patient’s spine directly inside the operating room. Integrated with StealthStation optical tracking, surgeons place pedicle screws and decompression instruments with 99.8% precision, even in severe scoliosis or cervical deformities.",
     keyBenefits: [
@@ -62,7 +62,7 @@ export const technologiesList = [
     category: "Keyhole Joint Surgery",
     icon: "ShieldCheck",
     badge: "Keyhole Visualization",
-    heroImage: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=85",
+    heroImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=85",
     shortDesc: "Ultra-high-definition 4K optical camera and radiofrequency plasma ablation system for ACL, meniscus, and shoulder labral repairs.",
     description: "Our arthroscopy surgical suites are equipped with state-of-the-art 4K Ultra-HD video towers and high-frequency Coblation plasma wands. Providing 4 times the resolution of standard HD, surgeons can inspect microscopic cartilage fraying, repair torn meniscus with all-inside collagen sutures, and re-anchor shoulder labrums through tiny 4mm incisions.",
     keyBenefits: [
@@ -90,7 +90,7 @@ export const technologiesList = [
     category: "Spine Neurological Safety",
     icon: "Activity",
     badge: "Zero Nerve Injury Standard",
-    heroImage: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=1200&q=85",
+    heroImage: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=85",
     shortDesc: "Continuous live tracking of spinal cord motor and sensory pathways (MEP, SSEP, EMG) throughout complex spine surgeries.",
     description: "Intraoperative Neuro-Monitoring (IONM) acts as an infallible safety net during delicate spinal decompression, scoliosis correction, and spinal tumor surgeries. By constantly firing and measuring electrical impulses across the spinal cord and peripheral nerves, it instantly alerts the surgeon to any nerve tension before irreversible injury can occur.",
     keyBenefits: [
@@ -101,70 +101,70 @@ export const technologiesList = [
     ],
     technicalSpecs: [
       { label: "Monitoring Channels", value: "32 Isolated Electrophysiology Channels" },
-      { label: "Modalities", value: "tcMEP, SSEP, Free-run EMG, Triggered EMG, D-Wave" },
-      { label: "Response Latency", value: "< 1 millisecond real-time detection" },
+      { label: "Modalities Supported", value: "TcMEP, SSEP, Free-Run EMG, Triggered EMG, EEG" },
+      { label: "Threshold Warning", value: "Real-time acoustic and visual alert system" },
       { label: "Safety Standard", value: "International Society of Intraoperative Neurophysiology" }
     ],
     procedureHighlights: [
-      "Electrode placement prior to incision under total intravenous anesthesia (TIVA)",
-      "Continuous baseline comparison during spinal instrumentation and rod rotation",
-      "Instant audio-visual warning to the lead spine surgeon"
+      "Pre-incision baseline evoked potential calibration",
+      "Continuous stimulation during pedicle screw insertion and spine distraction",
+      "Instant feedback to lead spine surgeon confirming 100% nerve integrity"
     ]
   },
   {
-    id: "hologic-dexa-densitometer",
-    slug: "hologic-dexa-densitometer",
-    name: "Hologic Horizon Dual-Energy X-Ray Absorptiometry (DEXA)",
-    category: "Bone Mineral Densitometry",
-    icon: "Layers",
-    badge: "Gold Standard BMD Testing",
-    heroImage: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=85",
-    shortDesc: "Ultra-fast, low-dose DEXA bone densitometer with Vertebral Fracture Assessment (VFA) and FRAX 10-year fracture risk score.",
-    description: "The Hologic Horizon DEXA system is the world’s gold standard for diagnosing osteopenia, osteoporosis, and bone fragility. In a single 10-minute scan with negligible radiation, it evaluates bone mineral density across the lumbar spine, dual hips, and forearm, computing the FRAX 10-year fracture risk score.",
-    keyBenefits: [
-      "Detects early microscopic bone loss years before an osteoporotic fracture occurs",
-      "Single-energy Vertebral Fracture Assessment (VFA) scans entire spine in 15 seconds",
-      "Atypical Femur Fracture (AFF) assessment for long-term bisphosphonate patients",
-      "Insignificant radiation dose (less than a one-way domestic flight)"
-    ],
-    technicalSpecs: [
-      { label: "Scan Time", value: "10 seconds per region (Spine / Hip)" },
-      { label: "Radiation Dose", value: "< 5 microsieverts (extremely low)" },
-      { label: "Bone Calibration", value: "Internal Ceramic Calibration Phantom" },
-      { label: "Features", value: "DEXA BMD, VFA, FRAX Score, Body Composition" }
-    ],
-    procedureHighlights: [
-      "Comfortable open-table scan without injections or claustrophobia",
-      "Immediate color-coded T-score and Z-score diagnostic report",
-      "Follow-up rate-of-change comparison tracking bone growth under therapy"
-    ]
-  },
-  {
-    id: "class-100-laminar-ot",
-    slug: "class-100-laminar-ot",
-    name: "Class 100 Laminar Airflow Operation Theatres",
-    category: "Zero-Infection Surgical Environment",
+    id: "hologic-dexa-scanner",
+    slug: "hologic-dexa-scanner",
+    name: "Hologic Horizon Dual-Energy DEXA Bone Densitometer",
+    category: "Bone Mineral Diagnostics",
     icon: "ShieldCheck",
-    badge: "Ultra-Clean Surgical Suite",
-    heroImage: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1200&q=85",
-    shortDesc: "HEPA-filtered vertical laminar airflow operating theatres maintaining < 0.1% surgical site infection rate for joint implants.",
-    description: "Orthopedic joint replacements and spinal implants require pristine sterility. Our modular operating theatres utilize Class 100 vertical laminar airflow with medical-grade HEPA filters, positive pressure airlocks, seamless anti-microbial cladding, and ultraviolet germicidal terminal disinfection.",
+    badge: "Gold Standard Osteoporosis DX",
+    heroImage: "https://images.unsplash.com/photo-1576091160291-248b1df53937?auto=format&fit=crop&w=1200&q=85",
+    shortDesc: "Clinical gold-standard dual-energy bone density scanner for spine, hip, and forearm fracture risk assessment.",
+    description: "The Hologic Horizon DEXA system provides ultra-low radiation, sub-millimeter accurate bone mineral density (BMD) analysis and vertebral fracture assessments. It calculates exact T-scores and Z-scores, predicting 10-year fracture probabilities (FRAX) and guiding targeted anti-osteoporotic drug therapy.",
     keyBenefits: [
-      "Near-zero (< 0.1%) surgical site infection rate exceeding global CDC standards",
-      "Constant downward unidirectional air velocity preventing airborne dust entry",
-      "Hermetically sealed motorized doors and automated touchless surgical scrub bays",
-      "Continuous digital monitoring of temperature, relative humidity, and positive pressure"
+      "Detects early osteopenia before catastrophic hip or spine fractures occur",
+      "High-definition Instant Vertebral Assessment (IVA) in under 15 seconds",
+      "Ultra-low radiation exposure (less than a cross-country flight)",
+      "Monitors exact percentage response to bone-building therapies"
     ],
     technicalSpecs: [
-      { label: "Air Cleanliness", value: "Class 100 / ISO Class 5 (< 100 particles/ft³)" },
-      { label: "Air Changes", value: "> 35 air changes per hour (100% fresh filtered air)" },
-      { label: "Filter Efficiency", value: "99.997% at 0.3 micron HEPA filtration" },
-      { label: "Flooring & Walls", value: "Seamless anti-static conductive epoxy & antimicrobial glass" }
+      { label: "Scan Time", value: "10 to 15 seconds per anatomical site" },
+      { label: "Radiation Dose", value: "< 1.5 µSv per scan" },
+      { label: "Analysis Tools", value: "FRAX® Risk Engine + Advanced Body Composition" },
+      { label: "Calibration", value: "Daily automated internal tissue phantom" }
     ],
     procedureHighlights: [
-      "3-stage sterile personnel entry airlock with space suits for joint surgery",
-      "Ceiling-mounted surgical pendants eliminating all floor cables",
-      "Dedicated sterile corridor direct to central sterilization unit (CSSD)"
+      "Comfortable open-table scan with no tunnel confinement",
+      "Immediate automated reporting with color-coded fracture risk scores",
+      "Integration into patient digital health record"
+    ]
+  },
+  {
+    id: "laminar-airflow-ot",
+    slug: "laminar-airflow-ot",
+    name: "Class-100 (ISO 5) Vertical Laminar Flow Operating Theatres",
+    category: "Sterility & Infection Control",
+    icon: "ShieldCheck",
+    badge: "< 0.1% Joint Infection Rate",
+    heroImage: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=85",
+    shortDesc: "Ultra-clean surgical environment with 99.997% HEPA filtration, positive pressure airlocks, and space-suit surgical enclosures.",
+    description: "Our dedicated orthopedic joint replacement and spine operating suites feature Class-100 vertical laminar airflow, ensuring that clean, HEPA-filtered air sweeps continuously over the surgical wound at 25 air changes per hour. Combined with double-door airlocks and surgical helmet space suits, we maintain a near-zero infection rate.",
+    keyBenefits: [
+      "Exceeds international NABH and CDC joint surgery sterility guidelines",
+      "Eliminates airborne microbial contamination around prosthetic implants",
+      "Positive pressure gradient prevents dust ingress from hospital corridors",
+      "Continuous temperature and humidity regulation optimized for bone cement setting"
+    ],
+    technicalSpecs: [
+      { label: "Air Cleanliness", value: "Class 100 / ISO Class 5 (< 3,520 particles/m³)" },
+      { label: "Filtration", value: "0.3-Micron Ultra-Efficient HEPA Filters (99.997%)" },
+      { label: "Air Velocity", value: "0.38 m/s vertical laminar downward flow" },
+      { label: "Surgeon Protection", value: "Stryker Flyte Personal Space Suit Enclosures" }
+    ],
+    procedureHighlights: [
+      "Terminal UV-C robotic disinfection between all surgical procedures",
+      "RFID tracking and biological spore testing for 100% of instrument trays",
+      "Positive pressure airlock monitoring with real-time digital readouts"
     ]
   }
 ];

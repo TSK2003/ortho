@@ -141,7 +141,7 @@ const HomePage = ({ onOpenAppointment, onOpenEnquiry }) => {
     badge: 'Robotic Joint & Spine Center of Excellence',
     heading: 'Pioneering Sub-Millimeter Robotic Joint Surgery & Advanced Spine Care',
     description: 'Mako 4th Gen robotic-arm total knee and anterior hip replacements, 3D navigated endoscopic spine surgery, 4K keyhole sports arthroscopy, and 24/7 Level-1 fracture trauma care.',
-    heroImage: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=85',
+    heroImage: 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1600&q=85',
     emergencyLabel: '24/7 Fracture & Orthopedic Trauma Hotline',
     emergencyHotline: '1800-419-6784'
   };

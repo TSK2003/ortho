@@ -8,19 +8,19 @@ const VideosPage = () => {
       title: 'Mako Robotic Knee Replacement: 4-Hour Post-Op Walking Milestone',
       duration: '4:20 min',
       category: 'Robotic Surgery',
-      thumb: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80'
+      thumb: 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: '7mm Keyhole Endoscopic Microdiscectomy: Spine Surgery Explained',
       duration: '5:45 min',
       category: 'Spine Care',
-      thumb: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80'
+      thumb: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: '4K Keyhole Arthroscopic ACL Reconstruction & Return-to-Play Drills',
       duration: '6:10 min',
       category: 'Sports Medicine',
-      thumb: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80'
+      thumb: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80'
     }
   ];
 
