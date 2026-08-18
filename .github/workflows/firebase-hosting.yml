@@ -29,15 +29,15 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PHYSIOTHERAPY_3A611 }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ORTHO_3D717 }}'
           channelId: live
-          projectId: physiotherapy-3a611
+          projectId: ortho-3d717
         env:
-          FIREBASE_SERVICE_ACCOUNT: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PHYSIOTHERAPY_3A611 }}'
+          FIREBASE_SERVICE_ACCOUNT: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ORTHO_3D717 }}'
         continue-on-error: true
 
       - name: Deploy with Firebase CI Token (Method 2)
         if: env.FIREBASE_TOKEN != ''
-        run: npx firebase-tools deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}" --project physiotherapy-3a611
+        run: npx firebase-tools deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}" --project ortho-3d717
         env:
           FIREBASE_TOKEN: '${{ secrets.FIREBASE_TOKEN }}'
